@@ -14,19 +14,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paulot/gmail.git"
+    "url": "git+https://github.com/764664/gmail.git"
   },
   "keywords": [
     "gmail",
     "mail",
     "app"
   ],
-  "author": "Paulo Tanaka",
+  "author": "Jie Lu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/paulot/gmail/issues"
+    "url": "https://github.com/764664/gmail/issues"
   },
-  "homepage": "https://github.com/paulot/gmail#readme",
+  "homepage": "https://github.com/764664/gmail",
   "dependencies": {
     "bluebird": "^3.0.5",
     "electron-debug": "^0.5.2",
