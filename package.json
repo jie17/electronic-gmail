@@ -1,0 +1,41 @@
+{
+  "name": "gmail-app",
+  "productName": "Gmail",
+  "version": "0.0.1",
+  "description": "A native gmail client.",
+  "main": "index.js",
+  "bin": {
+    "gmail": "./launch.sh"
+  },
+  "scripts": {
+    "start": "./launch.sh",
+    "build": "electron-packager . Gmail --platform=darwin --arch=x64 --version=0.35.1 --icon=lib/media/gmail.png",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulot/gmail.git"
+  },
+  "keywords": [
+    "gmail",
+    "mail",
+    "app"
+  ],
+  "author": "Paulo Tanaka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paulot/gmail/issues"
+  },
+  "homepage": "https://github.com/paulot/gmail#readme",
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "electron-debug": "^0.5.2",
+    "jquery": "^2.1.4",
+    "node-gmail-new": "0.0.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.1.18",
+    "babel-core": "^6.2.1",
+    "electron-prebuilt": "latest"
+  }
+}
