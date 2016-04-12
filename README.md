@@ -2,12 +2,12 @@
 
 > A Gmail web client built with Electron for OS X
 
-## Functions
+## Features
 
 - Shows number of unread emails in Dock.
-- Shows notifications in notification center when new emails come.
-- Checks new email per ~20 seconds, which is faster than the default ~2.5 minutes.
+- Shows notifications in the notification center when new emails come.
+- Checks new email per ~20 seconds, which is faster than the default frequency of per ~2.5 minutes.
 
 ## Credits
 
-Based on [paulot](https://github.com/paulot)'s work [gmail](https://github.com/paulot/gmail).
+Based on [gmail](https://github.com/paulot/gmail) by [paulot](https://github.com/paulot).
