@@ -29,9 +29,8 @@
   "homepage": "https://github.com/764664/gmail",
   "dependencies": {
     "bluebird": "^3.0.5",
-    "electron-debug": "^0.5.2",
     "jquery": "^2.1.4",
-    "node-gmail-new": "0.0.1"
+    "node-gmail-new": "^0.0.1"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.1.18",
