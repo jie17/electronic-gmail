@@ -29,6 +29,7 @@
   "homepage": "https://github.com/764664/gmail",
   "dependencies": {
     "bluebird": "^3.0.5",
+    "electron-json-storage": "^2.0.0",
     "jquery": "^2.1.4",
     "node-gmail-new": "^0.0.1"
   },
