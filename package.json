@@ -1,14 +1,14 @@
 {
   "name": "gmail-app",
   "productName": "Gmail",
-  "version": "0.0.2",
-  "description": "A native gmail client.",
+  "version": "0.0.3",
+  "description": "A Gmail web client built with Electron for OS X",
   "main": "index.js",
   "bin": {
-    "gmail": "./launch.sh"
+    "gmail": "./node_modules/.bin/electron ."
   },
   "scripts": {
-    "start": "./launch.sh",
+    "start": "./node_modules/.bin/electron .",
     "build": "electron-packager . Gmail --platform=darwin --arch=x64 --icon=lib/media/gmail.icns",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
