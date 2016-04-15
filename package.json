@@ -1,7 +1,7 @@
 {
   "name": "gmail-app",
   "productName": "Gmail",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A Gmail web client built with Electron for OS X",
   "main": "index.js",
   "bin": {
