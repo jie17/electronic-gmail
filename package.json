@@ -1,15 +1,16 @@
 {
   "name": "gmail-app",
-  "productName": "Gmail",
-  "version": "0.0.4",
-  "description": "A Gmail web client built with Electron for OS X",
+  "productName": "Electronic Gmail",
+  "version": "0.0.5",
+  "description": "A Gmail web client built with Electron for OS X and Windows",
   "main": "lib/main.js",
   "bin": {
     "gmail": "./node_modules/.bin/electron ."
   },
   "scripts": {
     "start": "./node_modules/.bin/electron .",
-    "build": "electron-packager . Gmail --platform=darwin --arch=x64 --icon=lib/media/gmail.icns",
+    "build-osx": "electron-packager . --platform=darwin --arch=x64 --icon=lib/media/gmail.icns --asar --app-version=0.0.5 --app-copyright=\"Jie Lu\"",
+    "build-win": "electron-packager . --platform=win32 --arch=x64 --icon=lib/media/gmail.ico --asar --app-version=0.0.5 --app-copyright=\"Jie Lu\" --version-string.ProductName=\"Electronic Gmail\" --version-string.CompanyName=\"Jie Lu\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
