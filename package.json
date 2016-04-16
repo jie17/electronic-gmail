@@ -3,7 +3,7 @@
   "productName": "Gmail",
   "version": "0.0.4",
   "description": "A Gmail web client built with Electron for OS X",
-  "main": "index.js",
+  "main": "lib/main.js",
   "bin": {
     "gmail": "./node_modules/.bin/electron ."
   },
@@ -34,8 +34,6 @@
     "node-gmail-new": "^0.0.1"
   },
   "devDependencies": {
-    "babel-preset-es2015": "^6.1.18",
-    "babel-core": "^6.2.1",
     "electron-prebuilt": "latest"
   }
 }
