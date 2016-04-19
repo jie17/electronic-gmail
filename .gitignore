@@ -38,3 +38,6 @@ node_modules
 # Binary files
 Gmail-*
 Electronic*
+
+# Idea
+.idea
