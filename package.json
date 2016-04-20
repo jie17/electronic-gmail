@@ -1,5 +1,5 @@
 {
-  "name": "gmail-app",
+  "name": "electronic-gmail",
   "productName": "Electronic Gmail",
   "version": "0.0.5",
   "description": "A Gmail web client built with Electron for OS X and Windows",
@@ -29,9 +29,10 @@
   },
   "homepage": "https://github.com/764664/gmail",
   "dependencies": {
+    "electron-editor-context-menu": "^1.1.1",
     "electron-json-storage": "^2.0.0",
+    "electron-prebuilt": "^0.37.6",
     "jquery": "^2.2.3",
-    "node-gmail-new": "^0.0.1",
-    "electron-prebuilt": "^0.37.6"
+    "node-gmail-new": "^0.0.1"
   }
 }
