@@ -1,10 +1,17 @@
 # Electronic Gmail
 
-> A Gmail web client built with Electron for OS X and Windows
+> A Gmail client built with Electron for OS X and Windows
 
 ## Features
 
+### OS X Only
+
 - Shows number of unread emails in Dock.
+- Able to handle mailto url.
+ - You can use [RCDefaultApp](http://www.rubicode.com/Software/RCDefaultApp/) to set Electronic Gmail as your default email application.
+
+### All Platforms
+
 - Shows notifications in the notification center when new emails come.
 - Checks new email per ~10 seconds, which is faster than the default frequency of per ~2.5 minutes.
 - Able to zoom in and remember the zoom factor, which is useful for large monitors.
