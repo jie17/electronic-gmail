@@ -26,6 +26,8 @@
 
 Please download the binary files from [Releases](https://github.com/764664/electronic-gmail/releases).
 
+Windows version is not fully tested. You're encouraged to open an issue if you find any bugs.
+
 ## Credits
 
 - [electron](https://github.com/electron/electron)
