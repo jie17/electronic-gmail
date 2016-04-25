@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/css/bootstrap.min.css" />
+    </head>
+    <body>
+            <div class="input-group">
+                <span class="input-group-addon">Title</span>
+                <input type="text" class="form-control" placeholder="Title of event" id="title">
+            </div>
+            <div  class="input-group">
+                <span class="input-group-addon">Date</span>
+                <span class="input-group-addon" id="date"></span>
+            </div>
+            <button type="button" class="btn btn-primary" onclick="addEvent()">Add</button>
+            <span class="label label-warning" id="ready">Not ready</span>
+        <script src="./calendar.js"></script>
+    </body>
+</html>
