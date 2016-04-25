@@ -8,8 +8,14 @@
                 <input type="text" class="form-control" placeholder="Title of event" id="title">
             </div>
             <div  class="input-group">
-                <span class="input-group-addon">Date</span>
-                <span class="input-group-addon" id="date"></span>
+                <span class="input-group-addon">Start Time</span>
+                <!--<span class="input-group-addon" id="date"></span>-->
+                <input type="text" class="form-control" id="start">
+            </div>
+            <div  class="input-group">
+                <span class="input-group-addon">End Time</span>
+                <!--<span class="input-group-addon" id="date"></span>-->
+                <input type="text" class="form-control" id="end">
             </div>
             <button type="button" class="btn btn-primary" onclick="addEvent()">Add</button>
             <span class="label label-warning" id="ready">Not ready</span>
