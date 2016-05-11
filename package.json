@@ -31,7 +31,7 @@
   "dependencies": {
     "electron-editor-context-menu": "^1.1.1",
     "electron-json-storage": "^2.0.0",
-    "electron-prebuilt": "^0.37.6",
+    "electron-prebuilt": "^1.0.0",
     "googleapis": "^5.2.1",
     "jquery": "^2.2.3",
     "moment": "^2.13.0",
