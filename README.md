@@ -7,15 +7,14 @@
 ### OS X Only
 
 - Shows number of unread emails in Dock.
-- Able to handle mailto url.
- - You can use [RCDefaultApp](http://www.rubicode.com/Software/RCDefaultApp/) to set Electronic Gmail as your default email application.
- - The mail address will be filled in for you.
+- Offers option to set as default application for handling mailto protocol.
+ - The mail address will be filled out for you.
 
 ### All Platforms
 
 - Shows notifications in the notification center when new emails come.
-- Checks new email per ~10 seconds, which is faster than the default frequency of per ~2.5 minutes.
-- Able to zoom in and remember the zoom factor, which is useful for large monitors.
+- Checks new email once per ~6 seconds
+- Able to zoom in and remember the zoom factor, which is useful for larger displays.
 - Able to add to Google Calendar from a string in the email indicating a date.
  - Select and right click on a date in your email.
  - Click on `Add to Calendar`.
