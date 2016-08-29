@@ -1,10 +1,10 @@
 # Electronic Gmail
 
-> A Gmail client built with Electron for OS X and Windows
+> A Gmail client built with Electron for macOS and Windows
 
 ## Features
 
-### OS X Only
+### macOS Only
 
 - Shows number of unread emails in Dock.
 - Offers option to set as default application for handling mailto protocol.
