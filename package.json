@@ -2,14 +2,14 @@
   "name": "electronic-gmail",
   "productName": "Electronic Gmail",
   "version": "0.0.8",
-  "description": "A Gmail web client built with Electron for OS X and Windows",
+  "description": "A Gmail web client built with Electron for macOS and Windows",
   "main": "lib/main.js",
   "bin": {
     "gmail": "./node_modules/.bin/electron ."
   },
   "scripts": {
     "start": "./node_modules/.bin/electron .",
-    "build-osx": "electron-packager . --platform=darwin --arch=x64 --icon=lib/media/gmail.icns --asar --app-version=0.0.8 --app-copyright=\"Jie Lu\"",
+    "build-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=lib/media/gmail.icns --asar --app-version=0.0.8 --app-copyright=\"Jie Lu\"",
     "build-win": "electron-packager . --platform=win32 --arch=x64 --icon=lib/media/gmail.ico --asar --app-version=0.0.8 --app-copyright=\"Jie Lu\" --version-string.ProductName=\"Electronic Gmail\" --version-string.CompanyName=\"Jie Lu\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -31,7 +31,7 @@
   "dependencies": {
     "electron-editor-context-menu": "^1.1.1",
     "electron-json-storage": "^2.0.0",
-    "electron-prebuilt": "^1.0.0",
+    "electron-prebuilt": "1.2.2",
     "googleapis": "^5.2.1",
     "jquery": "^2.2.3",
     "moment": "^2.13.0",
