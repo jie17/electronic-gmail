@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/764664/gmail",
   "dependencies": {
-    "electron": "1.4.3",
+    "electron": "^1.6.1",
     "electron-debug": "^1.0.1",
     "electron-editor-context-menu": "^1.1.1",
     "electron-json-storage": "^2.0.0",
