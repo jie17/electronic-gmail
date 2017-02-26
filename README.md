@@ -32,3 +32,7 @@ Windows version is not fully tested. You're encouraged to open an issue if you f
 - [electron](https://github.com/electron/electron)
 - [electron-packager](https://github.com/electron-userland/electron-packager)
 - [gmail](https://github.com/paulot/gmail)
+
+## TODO
+
+- Click on notification will navigate to the corresponding email
