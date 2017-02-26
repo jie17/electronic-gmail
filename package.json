@@ -1,7 +1,7 @@
 {
   "name": "electronic-gmail",
   "productName": "Electronic Gmail",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "A Gmail web client built with Electron for macOS and Windows",
   "main": "lib/main.js",
   "bin": {
