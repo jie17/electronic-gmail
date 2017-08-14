@@ -44,3 +44,6 @@ Electronic*
 
 # VSCode
 .vscode
+
+# dist
+dist/
