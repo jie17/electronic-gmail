@@ -4,6 +4,7 @@ cache:
 install:
   - ps: Install-Product node 7
   - yarn
+build: off
 matrix:
   fast_finish: true
 test_script:
