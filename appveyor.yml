@@ -1,0 +1,10 @@
+image: Visual Studio 2017
+cache:
+ - "%LOCALAPPDATA%\\Yarn"
+install:
+  - ps: Install-Product node 7
+  - yarn
+matrix:
+  fast_finish: true
+test_script:
+  - yarn dist
