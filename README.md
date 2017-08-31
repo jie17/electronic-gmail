@@ -29,5 +29,4 @@ Windows version is not fully tested. You're encouraged to open an issue if you f
 
 ## TODO
 
-- ~~Click on notification will navigate to the corresponding email~~
 - Refactor
