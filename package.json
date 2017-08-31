@@ -4,11 +4,8 @@
   "version": "0.0.14",
   "description": "A Gmail web client built with Electron for macOS and Windows",
   "main": "lib/main.js",
-  "bin": {
-    "gmail": "./node_modules/.bin/electron ."
-  },
   "scripts": {
-    "start": "./node_modules/.bin/electron .",
+    "start": "electron .",
     "pack": "electron-builder --dir",
     "dist": "electron-builder"
   },
