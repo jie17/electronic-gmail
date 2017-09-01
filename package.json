@@ -22,6 +22,7 @@
   "license": "MIT",
   "homepage": "https://github.com/764664/electronic-gmail",
   "dependencies": {
+    "about-window": "^1.7.1",
     "electron-debug": "^1.0.1",
     "electron-editor-context-menu": "^1.1.1",
     "electron-json-storage": "^2.0.0",
